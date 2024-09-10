@@ -1,0 +1,71 @@
+<!-- We can write CSS code inside the <style> element to modify the appearence of other elements. -->
+<!-- The "button_base" inside <style> is called a CSS selector and it's used to define which elements we are targeting.-->
+<!-- The "background-color" is called a CSS property and tells the computer which property we are changing. -->
+<!-- The general technique is: First, create the HTML element. Second, style it with CSS one property at a time. -->
+<style>
+    button_base {
+        background-color: rgb(230, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+</style>
+
+<style>
+    .subscribe-button {
+        background-color: rgb(230, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+    }
+</style>
+
+<style>
+    .join-button {
+        background-color: white;
+        border-color: rgb(1, 122, 203);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(1, 122, 203);
+        height: 36px;
+        width: 62px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+</style>
+
+<!-- To get the ellipsoid appearence of the button, the trick is to set border-radius as half the heigh or width, whichever is lower. -->
+<style>
+    .tweet-button {
+        background-color: rgb(6, 132, 216);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 74px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px; 
+        cursor: pointer;
+        margin-left: 8px;
+    }
+</style>
+
+<!-- class atribute lets us label HTML elements. This help us in CSS. -->
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+
+<button class="join-button">
+    JOIN
+</button>
+
+<button class="tweet-button">
+    Tweet
+</button>
