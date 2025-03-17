@@ -1,0 +1,2 @@
+- [Projeto de Design no Figma](https://www.figma.com/community/file/1410393986549302425/react-desenvolvendo-com-javascript-organo).
+- [Imagens Utilizadas](https://github.com/alura-cursos/organo/raw/main/imagens.zip).
