@@ -1,0 +1,42 @@
+.header {
+   position: absolute;
+   top: 0px;
+}
+.header .background {
+    background-color: rgb(255, 128, 0);
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.header .content {
+    background-color: white;
+    text-align: center;
+    width:100vw;
+    display: flex;
+    padding: 15px 0px;
+}
+
+.header .content .logo img {
+    width: 100px;
+    margin-left: 100%;
+}
+
+.header .content .menu {
+    width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header .content .menu a{
+    color: rgb(9, 51, 75);
+    margin-left: 5%;
+}
+
+.header .content .menu a:hover {
+    color:  rgb(255, 128, 0);
+    cursor: pointer;
+}
+
+.header .content .logo:hover {
+    cursor: pointer;
+}
